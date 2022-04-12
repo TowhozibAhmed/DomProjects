@@ -1,0 +1,67 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    color: #1B1B21;
+}
+
+body {
+    color: #1E1F20;
+    font-weight: 400;
+    background-color: #f3f3f3;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+/*---------------------- Counter area start ----------------------*/
+
+.counter span {
+    font-size: 95px;
+    line-height: 1;
+    font-weight: 800;
+    vertical-align: middle;
+    padding: 0px 19px;
+}
+
+
+.counter {
+	text-align: center;
+	font-size: 71px;
+	line-height: 1;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+

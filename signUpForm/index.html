@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <!-- Age Calculator Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <a href="#" class="btn btn-danger mb-3" id="testBtn">Click </a>
+                    <div class="card text-start form-wrapper bg-white">
+
+                        <div class="card-title text-center">
+                            <h3 class="text-dark">Sign Up Form</h3>
+                        </div>
+                        <div class="card-body">
+                            <form action="" id="signUpForm">
+                                <div class="validationMessage"></div>
+                                <div class="form-group mb-3">
+                                    <input type="text" placeholder="Name" class="form-control bg-white">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input type="email" placeholder="Email" class="form-control bg-white">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <select name="" class="form-select" id="">
+                                        <option value="" selected>-Location-</option>
+                                        <option value="Mirpur">Mirpur</option>
+                                        <option value="Uttara">Uttara</option>
+                                        <option value="Kushtia">Kushtia</option>
+                                        <option value="Bheramara">Bheramara</option>
+                                    </select>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="">Gender*</label>
+                                    <div class="d-flex align-items-center pt-1 genderSelect">
+                                        <div class="form-check">
+                                            <input class="form-check-input" name="gender" type="radio" value="Male"
+                                                id="check1">
+                                            <label class="form-check-label" for="check1">
+                                                Male
+                                            </label>
+                                        </div>
+                                        <div class="form-check ms-3">
+                                            <input class="form-check-input" name="gender" type="radio" value="Female"
+                                                id="check2">
+                                            <label class="form-check-label" for="check2">
+                                                Female
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="">Skills*</label>
+                                    <div class="d-flex align-items-center pt-1 skillSelect">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="HTML" id="check3">
+                                            <label class="form-check-label" for="check3">
+                                                Html
+                                            </label>
+                                        </div>
+                                        <div class="form-check ms-3">
+                                            <input class="form-check-input" type="checkbox" value="CSS" id="check4">
+                                            <label class="form-check-label" for="check4">
+                                                CSS
+                                            </label>
+                                        </div>
+                                        <div class="form-check ms-3">
+                                            <input class="form-check-input" type="checkbox" value="JS" id="check5">
+                                            <label class="form-check-label" for="check5">
+                                                JS
+                                            </label>
+                                        </div>
+                                        <div class="form-check ms-3">
+                                            <input class="form-check-input" type="checkbox" value="PHP" id="check6">
+                                            <label class="form-check-label" for="check6">
+                                                PHP
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Create" class="btn btn-primary w-100 text-center">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="showData text-start ps-3">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Age Calculator Section -->
+
+
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
