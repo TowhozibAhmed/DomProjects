@@ -23,40 +23,55 @@
     <!--------- TODO Section start --------->
     <section class="todo__section py-5">
         <div class="container">
-            <div class="todo__wrapper">
-                <form action="" id="todoForm">
+            <div class="add__product__button">
+                <button class="btn btn-primary" id="addProduct">Add Product</button>
+                <button class="btn btn-danger ms-2" id="clearProducts">Clear Products</button>
+            </div>
+            <div class="addProduct__wrapper card card-body mt-3">
+                <form action="" id="productForm">
+                    <button class="close" id="closeBtn">&times;</button>
                     <div class="todo__input mb-3">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-12 text-center">
+                                <h2>Add Product Form</h2>
+                            </div>
+                            <div class="col-md-12">
                                 <div class="form-group mb-3">
-                                    <input type="text" class="form-control" id="todoInput">
+                                    <input type="text" class="form-control" id="productName" placeholder="Product Name">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-12">
                                 <div class="form-group mb-3">
-                                    <select name="" id="todoSelect" class="form-select">
-                                        <option value="">- Select -</option>
-                                        <option value="Important">Important</option>
-                                        <option value="Not Important">Not Important</option>
-                                        <option value="Unnecessary">Unnecessary</option>
-                                    </select>
+                                    <input type="text" class="form-control" id="productPrice"
+                                        placeholder="Product Price">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-12">
                                 <div class="form-group mb-3">
-                                    <input type="submit" class="btn btn-primary" id="addTodo" value="ADD">
+                                    <input type="text" class="form-control" id="productSalePrice"
+                                        placeholder="Product Sale Price">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group mb-3">
+                                    <input type="text" class="form-control" id="productImage"
+                                        placeholder="Product Photo Link">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group ">
+                                    <input type="submit" class="btn btn-primary" id="publish" value="Publish">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </form>
-                <hr>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="todo__list list-group" id="todoList">
-                            <li class="list-group-item">Todo Data here</li>
-                        </div>
-                    </div>
+            </div>
+            <hr>
+            <br>
+            <div class="product__cards__wrapper">
+                <div class="row" id="productLists">
+                    
                 </div>
             </div>
         </div>
@@ -67,14 +82,9 @@
 
 
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/functions.js"></script>
     <script src="assets/js/main.js"></script>
-
-    <script>
-
-    </script>
 
 </body>
 
