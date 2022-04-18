@@ -6,6 +6,9 @@ let productLists = document.getElementById('productLists');
 let clearProducts = document.getElementById('clearProducts');
 let addProductWrapper = document.querySelector('.addProduct__wrapper');
 
+
+ 
+
 addProduct.addEventListener('click', () => {
 
     addProductWrapper.style.display = 'block'
@@ -73,10 +76,7 @@ function allProducts() {
 
     productLists.innerHTML = ``
 
-
-
     let productDataStore = getData('Product-Details')
-
 
 
     productDataStore.map((pdata) => {
@@ -103,10 +103,7 @@ function allProducts() {
 }
 
 
-
-
-
-
+ 
 
 
 
