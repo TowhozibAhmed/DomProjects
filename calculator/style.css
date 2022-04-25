@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000; 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* .box {
+    border: 1px solid #888;
+    background-color: #f3f3f3;
+    padding: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+} */
+
+.section__title h3 {
+    font-size: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    color: #0d0d0d;
+    font-weight: 700;
+}
+
+.py-5 {
+    padding: 60px 0 !important;
+}
+
+
+.calculator {
+    width: 350px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 6px 6px 13px #88888838;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+.calculator-monitor {
+    background: #000;
+    padding: 13px;
+    text-align: right;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+    height: 106px;
+}
+
+.calculator-monitor-main {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 3px;
+    transition: .3s;
+}
+
+.calculator-monitor-output {
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 500;
+    position: relative;
+    right: -2px;
+}
+
+.calculator-buttons button {
+    border: 0;
+    background: #f2f2f2;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 1;
+    width: 25%;
+    float: left;
+    transition: .3s;
+}
+
+.calculator-buttons button:hover {
+    background: #ccc;
+}

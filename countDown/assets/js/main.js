@@ -23,7 +23,7 @@ start.addEventListener('click', () => {
     } else {
         output.innerHTML = 'Loading..';
     }
- 
+
 
     count = setInterval(() => {
 
@@ -50,7 +50,11 @@ start.addEventListener('click', () => {
 
     }, 1000)
 
+    setInterval(() => {
 
+
+
+    }, 1000)
 
 })
 

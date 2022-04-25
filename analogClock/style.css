@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    background-color: rgba(221, 221, 221, 0.527);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* .box {
+    border: 1px solid #888;
+    background-color: #f3f3f3;
+    padding: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+} */
+
+.section__title h3 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    color: #0d0d0d;
+    font-weight: 700;
+}
+
+.py-5 {
+    padding: 60px 0 !important;
+}
+
+
+.clock {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+    border: 18px solid #fff;
+    border-radius: 50%;
+    box-shadow: 6px 6px 13px #88888838;
+    background: url(clock-frame-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.clock::before {
+    background: #000000de;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+
+
+
+.s {
+    width: 0px;
+    height: 295px;
+    border-radius: 50px;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    transform: rotate(0deg);
+}
+
+.s::before {
+    position: absolute;
+    content: '';
+    width: 5px;
+    background: #000;
+    height: 205px;
+    bottom: auto;
+}
+
+
+.m {
+    width: 0;
+    height: 288px;
+    border-radius: 50px;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    transform: rotate(40deg);
+}
+
+.m::before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    background: #f00;
+    height: 180px;
+}
+
+.h {
+    width: 0;
+    height: 238px;
+    border-radius: 50px;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    transform: rotate(80deg);
+}
+
+.h::before {
+    position: absolute;
+    content: '';
+    width: 15px;
+    background: rgb(37, 0, 248);
+    height: 140px;
+}

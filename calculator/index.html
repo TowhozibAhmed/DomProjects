@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!-- Digital Clock Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="section__title pb-4 text-center">
+                        <h3>Calculator</h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="calculator">
+                        <div class="calculator-monitor">
+                            <div class="calculator-monitor-main">0</div>
+                            <div class="calculator-monitor-output"></div>
+                        </div>
+                        <div class="calculator-buttons">
+                            <button onclick="getVal(7)">7</button>
+                            <button onclick="getVal(8)">8</button>
+                            <button onclick="getVal(9)">9</button>
+                            <button onclick="getVal('/')">/</button>
+                            <button onclick="getVal(4)">4</button>
+                            <button onclick="getVal(5)">5</button>
+                            <button onclick="getVal(6)">6</button>
+                            <button onclick="getVal('*')">*</button>
+                            <button onclick="getVal(1)">1</button>
+                            <button onclick="getVal(2)">2</button>
+                            <button onclick="getVal(3)">3</button>
+                            <button onclick="getVal('+')">+</button>
+                            <button onclick="getVal(0)">0</button>
+                            <button onclick="getVal('.')">.</button>
+                            <button onclick="finalResult()">=</button>
+                            <button onclick="getVal('-')">-</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Digital Clock Section -->
+
+
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
